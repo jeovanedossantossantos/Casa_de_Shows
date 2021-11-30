@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+    <title>Casa de Shows</title>
+</head>
+
+<body  >
+
+    <!-- <header >
+        <nav class="menu">
+            <div class="logo ladoAlado">
+
+
+            </div>
+            <div class="navegacao ladoAlado">
+
+                <ul class="alinhaVertical" style="background-color: aliceblue;">
+                    <li class=""><a href="">GITHUB</a></li>
+                    <li class=""><a href="">LINKDIN</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header> -->
+
+    <section id="bg">
+        <div class="container" >
+            <h1>Cadastro de Artistas</h1>
+            <form>
+                <div>
+                    <label>Nome:</label>
+                    <input type="name" id="nome_ar" placeholder="Digiete o nome do artista!" />
+                </div>
+                <div>
+                    <label>Estilo Musical</label>
+                    <input type="text"  id="nome_es" placeholder="Digiete o nome do artista!" />
+                </div>
+
+                <p>Selecione os dias da semana que estara disponivel:</p>
+                <div>
+                    <input type="checkbox" id="dom" name="contact" value="name">
+                    <label for="dom">Dom</label>
+
+                    <input type="checkbox" id="seg" name="contact" value="name">
+                    <label for="seg">Seg</label>
+
+                    <input type="checkbox" id="ter" name="contact" value="name">
+                    <label for="ter">Ter</label>
+
+                    <input type="checkbox" id="qua" name="contact" value="name">
+                    <label for="qua">Qua</label>
+
+                    <input type="checkbox" id="qui" name="contact" value="name">
+                    <label for="qui">Qui</label>
+
+                    <input type="checkbox" id="sex" name="contact" value="name">
+                    <label for="sex">Sex</label>
+
+                    <input type="checkbox" id="sab" name="contact" value="name">
+                    <label for="sab">Sab</label>
+                </div>
+                <div>
+                    <button onclick="cadastrarArtista()">Submit</button>
+                </div>
+            </form>
+
+            <div>
+                <h2>Lista de ardistas</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th >Nome</th>
+                            <th >Estilo</th>
+                            <th>Domingo</th>
+                            <th >Segunda</th>
+                            <th >Terça</th>
+                            <th >Quarta</th>
+                            <th >Quinta</th>
+                            <th >Sexta</th>
+                            <th >Sabado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr> -->
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/cadastro.js">
+  
+    </script>
+
+</body>
+
+</html>
